@@ -70,6 +70,7 @@ uniq_snpid_geno_dat[1:10, 1:10]
 uniq_snpid_geno_dat_transpose <- data.table::transpose(uniq_snpid_geno_dat, make.names="ID", keep.names="ID")
 dim(uniq_snpid_geno_dat_transpose)
 uniq_snpid_geno_dat_transpose[1:10, 1:10]
+uniq_snpid_geno_dat_transpose <- as.data.table(lapply(uniq_snpid_geno_dat_transpose, FUN=function(x) if(is.character(x)){x} else{nafill(as.numeric(x), type="const", fill=mean(x, na.rm=T))}))
 
 ##### Get the target genes expression PEER residuals under WW and DS conditions, respectively
 ### WW

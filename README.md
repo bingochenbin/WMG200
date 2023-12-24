@@ -1,4 +1,4 @@
-#  MRkit
+#  WMG200
 
 ![license](https://img.shields.io/badge/license-Apache%202.0-blue)  
 
@@ -12,8 +12,7 @@ where $U_1$ represents the partial sum of regression squares for the specific eQ
 
 ##  How to access help
 
-Please don't hesitate to leave a message at github [`Issues`](https://github.com/bingochenbin/MRkit/issues) if you encounter any bugs or issues.  We will try our best to deal with all issues as soon as possible. In addition, if any suggestions are available, feel free to contact: **_Bin Chen_** [a1030539294@gmail.com](mailto:a1030539294@gmail.com).
+Please don't hesitate to leave a message at github [`Issues`](https://github.com/bingochenbin/WMG200/issues) if you encounter any bugs or issues.  We will try our best to deal with all issues as soon as possible. In addition, if any suggestions are available, feel free to contact: **_Bin Chen_** [a1030539294@gmail.com](mailto:a1030539294@gmail.com).
 
 ##  Citation
-
 
